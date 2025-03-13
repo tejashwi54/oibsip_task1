@@ -83,17 +83,6 @@ To deploy the model using **Streamlit**, run:
 
 streamlit run app.py
 
-
-## 📝 Usage
-
-To test a sample input:
-
-sample_data = [[5.1, 3.5, 1.4, 0.2]]
-prediction = model.predict(sample_data)
-print("Predicted Species:", prediction[0])
-
-
-
 ## 📌 Future Improvements
 
 - Try different classification models (Decision Trees, Random Forest, SVM)
